@@ -1,0 +1,32 @@
+# Archivos/Directorios generados por IntelliJ
+.idea/
+*.iml
+out/
+
+# Directorios de compilación/artefactos de Maven
+/target/
+
+# Archivos de Maven Wrapper (a menudo se suben, pero se pueden ignorar si se desea simplificar)
+# Descomenta las líneas de abajo si NO quieres subir el mvnw/mvnw.cmd
+# .mvn/
+# mvnw
+# mvnw.cmd
+
+# Archivos Generados por el Sistema Operativo
+.DS_Store
+Thumbs.db
+
+# Logs y otros archivos temporales
+*.log
+*.class
+temp/
+
+# Artefactos de la aplicación (No deben subirse al repo)
+*.jar
+*.war
+*.zip
+*.exe
+
+# Archivos de Maven Wrapper que NO necesitas
+# (Aunque muchos proyectos los incluyen, excluirlos simplifica)
+.mvn/
