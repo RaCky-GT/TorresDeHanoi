@@ -7,6 +7,8 @@ module torredehanoi {
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
     requires com.almasb.fxgl.all;
+    requires java.desktop;
+    requires javafx.graphics;
 
     exports torredehanoi.application;
     opens torredehanoi.application to javafx.graphics, javafx.fxml;

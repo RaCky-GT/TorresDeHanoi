@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="677.0" prefWidth="1010.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="torredehanoi.controllers.JuegoAutomaticoController">
+    <children>
+        <Label layoutX="455.0" layoutY="55.0" text="Juego Automatico">
+            <font>
+                <Font size="30.0" />
+            </font>
+        </Label>
+        <Label layoutX="79.0" layoutY="106.0" text="Discos">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Label>
+        <Label layoutX="182.0" layoutY="106.0" text="Movimientos">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Label>
+        <Label fx:id="lblDiscos" layoutX="105.0" layoutY="142.0" text="3">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Label fx:id="lblMovimientos" layoutX="239.0" layoutY="142.0" text="000">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <TextArea fx:id="txtAreaMovimientos" layoutX="82.0" layoutY="194.0" prefHeight="311.0" prefWidth="843.0" />
+        <Button fx:id="btn_iniciar" layoutX="688.0" layoutY="574.0" mnemonicParsing="false" onAction="#iniciarJuegoAutomatico" text="Iniciar">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Button>
+        <Button fx:id="btn_regresar" layoutX="821.0" layoutY="574.0" mnemonicParsing="false" onAction="#menuPrincipal" text="Regresar">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
